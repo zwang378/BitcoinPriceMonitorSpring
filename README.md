@@ -1,7 +1,7 @@
 BitcoinPriceMonitorSpring
 =============================
 
-A simple Restful service shows important Bitcoin information only. You can see a few Bitcoin information on this web app. The purpose of this project is to implement the idea of MVC/MTV on Django.
+A simple RESTful service shows important Bitcoin information only. You can see a few Bitcoin information on this web app. The purpose of this project is to implement the idea of MVC/MTV on Django.
 
 There is no database in this project. The data source is the real-time Bitcoin information provided by Bitstamp.
 
@@ -12,20 +12,23 @@ This app is based on Bitstamp API, so you can find the same Bitcoin information 
 
 You can find the following services and check out the responses on the screenshots below.
 
-Link 1 (History) function(s)
+History function
 ---------------
 
-See the highest price and lowest price in the past 1 hr.
+1. Show all transactions history in the past one hour
+2. Show transactions having the highest price in the past one hour based on _topId_ parameter
 
-Tab 2 (Bids) function(s)
+Bids function
 ---------------
 
-See the most recent 8 bids.
+1. Show all bids
+2. Show recent bids based on _recentId_ parameter
 
-Tab 3 (Asks) function(s)
+Asks function
 ---------------
 
-See the most recent 8 asks.
+1. Show all asks
+2. Show recent asks based on _recentId_ parameter
 
 Screenshots
 ---------------
