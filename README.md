@@ -33,8 +33,10 @@ Screenshots
 Please see below to check out the screenshots!
 
 <p float="left">
-  <img src="/sample/index.png?raw=true" width="500px">
-  <img src="/sample/history.png?raw=true" width="500px">
-  <img src="/sample/bids.png?raw=true" width="500px">
-  <img src="/sample/asks.png?raw=true" width="500px">
+  <img src="/screenshots/history.png?raw=true" width="800px">
+  <img src="/screenshots/history_and_topId.png?raw=true" width="800px">
+  <img src="/screenshots/bids.png?raw=true" width="800px">
+  <img src="/screenshots/bids_and_recentId.png?raw=true" width="800px">
+  <img src="/screenshots/asks.png?raw=true" width="800px">
+  <img src="/screenshots/asks_and_recentId.png?raw=true" width="800px">
 </p>
