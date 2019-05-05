@@ -1,7 +1,7 @@
 BitcoinPriceMonitorSpring
 =============================
 
-A simple RESTful service shows important Bitcoin information only. You can see a few Bitcoin information on this web app. The purpose of this project is to implement the idea of MVC/MTV on Django.
+A simple RESTful service shows important Bitcoin information only. You can see a few Bitcoin information on this web app. The purpose of this project is to implement RESTful services with MVC on Spring Framework.
 
 There is no database in this project. The data source is the real-time Bitcoin information provided by Bitstamp.
 
@@ -10,7 +10,7 @@ Introduction
 
 This app is based on Bitstamp API, so you can find the same Bitcoin information on Bitstamp website (https://www.bitstamp.net/).
 
-You can find the following services and check out the responses on the screenshots below.
+You can find the following services and check out the JSON responses on the screenshots below.
 
 History function
 ---------------
